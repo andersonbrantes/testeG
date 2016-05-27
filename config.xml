@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.1" id="br.com.andersonbrantes.cenourapp">
+  <name>Teste G</name>
+
+  <description>
+    Teste
+  </description>
+
+  <author href="http://andersonbrantes.com.br" email="anderson@scupen.com" >
+    Anderson Brantes
+  </author>
+
+  <icon src="icon.png" />
+  <!-- ANDROID 720x1280px -->
+  <gap:splash src="splash.png" />
+
+  <preference name="orientation" value="portrait" />
+  <preference name="permissions" value="none" />
+  <gap:platform name="android" />
+
+  <access origin="http://some-mobile-app-url.com" subdomains="true" browserOnly="false" /> 
+
+</widget>
