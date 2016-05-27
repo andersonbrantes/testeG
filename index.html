@@ -4,10 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <script type="text/javascript">
-
+             function onBodyLoad(){
+                document.addEventListener("deviceready", onDeviceReady, false);
+             }
+             function onDeviceReady(){
+                 window.location.href = "http://cliente.gigalink.net.br";
+             }
         </script>
     </head>
     <body>
-<h1>TESTE</h1>
+
     </body>
 </html>
